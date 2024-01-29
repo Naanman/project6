@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.one{
+    /* background-image: url(images/mountain.png);
+    background-repeat: no-repeat; */
+    height: 500px;
+    text-align: center;
+    background-color: rgb(233, 246, 250);
+   
+}
+
+
+.one{
+    position: relative;
+   padding: 60px;
+}
+
+.pic1 {
+    position: absolute;
+     right: 500px;  
+     width: 150px; 
+     top: 10px;
+}
+.pic2{
+    position: absolute;
+    top: 150px;
+    width: 150px;
+}
+.one p{
+    padding-top: 20px;
+    color:rgb(114, 185, 179) ;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.one h1{
+    color:rgb(114, 185, 179);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.two{
+    text-align: center;
+}
+.pic3{
+    border: 2px solid white;
+    border-radius: 45px;
+    width: 90px;
+   margin-top: 30px;
+}
+.two h3{
+    margin-top: 10px;
+    color: rgb(114, 185, 179);
+}
+.two p{
+    margin: 20px;
+}
+.three{
+    width:50%;
+    text-align: left;
+    margin:80px auto 100px auto;
+ 
+    }
+.pic4{
+        float:left;
+        margin-right: 30px;
+        
+    }
+   .geb{
+        margin-right: 50px;
+    } 
+
+
+    
+    .pic5{
+        float: right;
+        margin-right: 100px;
+        border: 5px solid white;
+        border-radius: 70px;
+    }
+    .four{
+        width: 50%;
+         text-align: left; 
+      margin:auto;
+ 
+        
+    }
+    .div{
+        margin-left:20px ;
+    }
+
+    .five{
+        width: 50%;
+        margin:150px auto 100px auto;
+       }
+    
+
+   .pic6{
+    float: left;
+    margin-right: 30px;
+    border: 5px solid white;
+    border-radius: 60px;
+   }
+   .naan{
+    margin-right: 50px;
+   }
+   .six{
+    text-align: center;
+    color: rgb(114, 185, 179);
+   }
+   .six p{
+    margin-top: 15px;
+   margin-bottom: 1px;
+   }
+    .btn{
+    margin-top: 1px;
+    background-color:rgb(114, 185, 179);
+    border-radius: 20px;
+    color: white;
+    padding: 5px;
+    border: 5px solid white;
+    
+
+   }
+   footer{
+    text-align: center;
+    background-color:rgb(114, 185, 179);
+    padding: 25px;
+color: white;
+margin-top: 15px;
+   }
+ @media only screen and (max-width:768px) {
+    .picture{
+        height: 300px;
+    }
+    .pic1{
+        right: 80px;
+    }
+    .one{
+       height: 400px;
+    }
+ }
+ @media only screen and (max-width:320px){
+ 
+body{
+    max-width: 100%;
+    box-sizing: border-box;
+}
+.picture{
+    width: 230px;
+    height: 150px;
+    margin-top: 10px;
+}
+.pic1{
+    width: 60px;
+    right: 10px;
+}
+.pic2{
+    width: 60px;
+    top: 80px;
+}
+.zero{
+    font-size: 12px;
+}
+.one{
+    height: 270px;
+}
+.pic3{
+    width: 70px;
+}
+.pic4{
+    width:50px ;
+    float: none;
+}
+.three{
+    width:100%;
+  margin-left: 5px;
+  font-size: 13px;
+ 
+}
+.pic5{
+    width: 50px;
+    float: none;
+}
+.four{
+    width: 100%;
+    margin-right: 5px;
+    font-size: 13px;
+}
+.pic6{
+    width: 50px;
+    float: none;
+}
+.five{
+    width: 100%;
+    margin-left: 5px;
+    font-size: 13px;
+}
+
+}
+    
